@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+
+<head>
+  
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  
+  <style>
+    html {
+      padding: 0;
+    } 
+
+    #container {
+      padding-top: 0;
+      max-width: 904px;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    #dashboard{
+      position: fixed;
+      top: 15px;
+      
+      max-width: 900px;
+      background-color: #e0e1e1;
+      width: 100%;
+      height: 4.4em;
+    }
+    #kosten_value{
+      color: #df5b57;
+    }
+
+    #documenten_value{
+      color: #df5b57;
+    }
+
+    @supports (position: sticky) {
+      #dashboard {
+        position: sticky;
+        top: 0;
+      }
+    }
+
+    .dashboard_item {
+      display: block;
+      float: left; 
+      width: 33%;
+      border-left: 1px white solid ;
+    }
+
+    .dashboard_omschrijving{
+      font-family: Bree;
+      font-size:1em;
+      color: black;
+      text-align: center;
+      margin-top:-1.4em;
+    }
+
+    .dashboard_number {
+      font-family: Bree;
+      font-size: 1.8em;
+      margin-top: 0.3em;
+      text-align: center;
+      color: white;
+      text-align: center;
+    }
+
+    .test_tekst {
+      font-family: Georgia;
+      font-size: 1.2em;
+    }
+
+    #b089f6f16b847e803880b {
+      position: relative;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      margin-top: 0.4em;
+      width: 1.9em;
+    }
+
+
+
+    #frustratie_value {
+      margin-top: 0.2em;
+    }
+
+    #emo_geen{
+      opacity: 1;
+    }
+    #emo_weinig{
+      opacity: 0;
+    }
+    #emo_veel{
+      opacity: 0;
+    }
+    .frustratie_tekst {
+      /*color:#9ececa;*/
+    }
+  </style>
+    
+</head>
+
+<body>
+  
+  <div id="container">
+        
+
+
+
+      <p class="test_tekst" id="begin_trigger" data-trigger-id="0">
+        e Verenigde Naties noemen de situatie in Jemen ‘de grootste humanitaire crisis ter wereld.’ Meer dan 22 miljoen Jemenieten, onder wie 11 miljoen kinderen,  hebben humanitaire hulp nodig. Ruim 8 miljoen van hen zijn volledig afhankelijk van voedselhulp en balanceren op de rand van uithongering.
+      </p>
+      <p class="test_tekst">
+        Maar het overgrote deel van de slachtoffers is onbereikbaar voor de media. Een serie onuitvoerbare procedures maakt het vrijwel onmogelijk een journalistenvisum te bemachtigen of om anderszins op onafhankelijke wijze je werk te doen.
+      </p>
+      <p class="test_tekst">
+        Des te meer reden om als correspondent Vergeten Oorlogen verslag te willen doen van de gevolgen van deze verwoestende strijd.
+      </p>
+      <p class="test_tekst">
+        Dat kostte anderhalf jaar aan voorbereiding. 
+        Lees hier wat de voorbereiding van zo’n reis voor de redactie van De Correspondent betekent. In samenwerking met een contact in Jemen stuurde ik ruim zestig documenten naar de autoriteiten en andere betrokkenen om ze zover te krijgen me toegang te verlenen. Eerst als journalist, maar toen dit onmogelijk bleek als ‘onafhankelijke onderzoeker.’ Drie keer is onze vlucht op het allerlaatste moment afgelast. Net toen ik dacht aan opgeven, lukte het toch.
+      </p>
+
+
+      <div id='dashboard'>
+        <div class="dashboard_item">
+          <p class="dashboard_number" id="kosten_value">0</p>
+          <p class="dashboard_omschrijving">euro kosten</p>
+        </div>
+        <div class="dashboard_item">
+          <p class="dashboard_number" id="documenten_value" >0</p>
+          <p class="dashboard_omschrijving" >documenten</p>
+        </div>
+        <div class="dashboard_item">
+          <svg id="b089f6f16b847e803880b"  data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.24 51.24" preserveAspectRatio="xMidYMin">
+<defs>
+    <style>
+      .\31 3a79ae4-2cb1-40da-9826-55353b01ed7f {
+        fill: #fef898;
+      }
+
+      .\33 360f9ec-ccab-4204-8d51-357f1f80a2ff {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .c2e8d099-82c8-4035-a78d-dabae973b6ad {
+        fill: #9ececa;
+      }
+
+      .d6289b42-3a9f-4332-bfc0-a0cc6d50b1d2 {
+        fill: #df5b57;
+      }
+    </style>
+  </defs>
+  
+  <g id="9fd59343-13c1-426e-a068-63e2491c1ac9" data-name="Layer 1">
+    <g id="emo_weinig">
+      <circle class="13a79ae4-2cb1-40da-9826-55353b01ed7f" cx="25.61" cy="25.63" r="25.19"/>
+      <path d="M18.2,19.27a1.89,1.89,0,0,0,3.78,0V16.34a1.89,1.89,0,0,0-3.78,0Z"/>
+      <path d="M30.13,19.27a1.89,1.89,0,1,0,3.78,0V16.34a1.89,1.89,0,0,0-3.78,0Z"/>
+      <line class="3360f9ec-ccab-4204-8d51-357f1f80a2ff" x1="12.58" y1="28.93" x2="32.56" y2="37.11"/>
+    </g>
+  </g>
+  <g id="023d6db9-416d-497e-a8d0-b22b235a7629" data-name="Layer 2">
+    <g id="emo_geen">
+      <circle class="c2e8d099-82c8-4035-a78d-dabae973b6ad" cx="25.61" cy="25.63" r="25.19"/>
+      <path class="3360f9ec-ccab-4204-8d51-357f1f80a2ff" d="M39.83,27.12a13.63,13.63,0,0,1-27.25,0"/>
+      <path d="M18.2,19.27a1.89,1.89,0,0,0,3.78,0V16.34a1.89,1.89,0,0,0-3.78,0Z"/>
+      <path d="M30.13,19.27a1.89,1.89,0,1,0,3.78,0V16.34a1.89,1.89,0,0,0-3.78,0Z"/>
+    </g>
+  </g>
+  <g id="3779d490-7bff-4b90-9a8c-ce84327c95f8" data-name="Layer 3">
+    <g id="emo_veel">
+      <circle class="d6289b42-3a9f-4332-bfc0-a0cc6d50b1d2" cx="25.61" cy="25.63" r="25.19"/>
+      <g>
+        <polyline class="3360f9ec-ccab-4204-8d51-357f1f80a2ff" points="38.63 22.99 30.6 19.02 38.63 15.05"/>
+        <polyline class="3360f9ec-ccab-4204-8d51-357f1f80a2ff" points="13.38 15.05 21.41 19.02 13.38 22.99"/>
+      </g>
+      <path class="3360f9ec-ccab-4204-8d51-357f1f80a2ff" d="M13.37,39.21a12.22,12.22,0,1,1,24.43,0"/>
+    </g>k
+  </g>
+          <p class="dashboard_omschrijving" id="frustratie_value" ><span id="frustratie_tekst">geen</span> frustratie</p></div>
+      </div>
+
+      <p class="test_tekst">
+        Drie keer is onze vlucht op het laatste moment afgelast. Net toen ik aan opgeven dacht, lukte het Jemen in te komen
+        Negen dagen reisden fotograaf Andreas Staahl en ik door het zuiden van Jemen, waar het regeringsleger van de uit het noorden verdreven president Abd Rabbuh Mansur Hadi, zuidelijke opstandelingen, een keur aan burgermilities en het fundamentalistische Al-Qaeda de scepter zwaaien.
+      </p>
+      <p class="test_tekst">
+        Zij vechten een oorlog uit tegen noordelijke Houthi-rebellen, die sinds maart 2015 de hoofdstad van het land Sana’a en grote delen van het noorden controleren. Een door Saoedi-Arabië geleide coalitie van Arabische staten staat hen bij om de Houthi-rebellen terug te dringen  en voert daarbij talloze luchtaanvallen uit. Daarnaast raken de verschillende strijdgroepen in het zuiden geregeld met elkaar in conflict.
+      </p>
+      <p class="test_tekst">
+        Wat we aantroffen heeft ons diep geraakt. Kinderen met schotwonden klampten zich aan ons vast, vragend om voedsel, ouderen gooiden zich voor ons op de grond en smeekten ons de buitenwereld te vertellen over hun lot.
+      </p>
+      <p class="test_tekst">
+        De komende weken ga ik dat doen.
+      </p>
+      <p class="test_tekst">
+
+        De vergeten oorlog in het zuiden
+        Onze reis begon in de zuidelijke havenstad Aden, waar strijders van het zuidelijke verzetsleger eind januari 2018 het regeringsleger verdreven, waarmee ze tot dat moment hadden samengewerkt.
+      </p>
+      <p class="test_tekst">
+        De afwezigheid van de autoriteiten gaf ons de kans vrijwel ongestoord  te werken in de stad, vrij van de propagandamachine  en zonder bewaking. Die kans grepen we aan om te onderzoeken wat de zuidelijke rebellen willen, en wat er tijdens de chaotische dagen eind januari gebeurde. Daarnaast reisden we via Aden naar Taiz, waar de autoriteiten en vele burgermilities een strijd voeren tegen de Houthi-rebellen.
+      </p>
+      <p class="test_tekst">
+        De gebeurtenissen in Aden worden door de overheid bestempeld als een ‘coup,’ maar de bevolking stelt dat ze vreedzaam demonstreerden tegen de vergaande corruptie, en dat het leger begon met schieten.
+      </p>
+      <p class="test_tekst">
+        Veel verhalen over wat er die dagen precies gebeurde wijzen op een schending van de de Geneefse Conventies,  ofwel het oorlogsrecht. Zo spraken we een ambulancemedewerker die door soldaten was beschoten en beroofd. De kogelgaten zaten nog in de ambulance. We bezochten een woonwijk die met mortiergranaten werd getroffen en spraken met inwoners die daarbij gewond zijn geraakt.
+      </p>
+      <p class="test_tekst">
+        De situatie in Aden maakt de oorlog in Jemen nog ingewikkelder dan deze al was. De zuidelijke rebellen streven onafhankelijkheid na, zoals die voor 1990 bestond. En in het zuiden zie je ook alleen nog de vlag van Zuid-Jemen. De regering, zo zegt men hier, is niet meer welkom.
+      </p>
+      <p class="test_tekst">
+        Maar eerst zal ik een reportage publiceren vanuit de zwaar belegerde stad Taiz, al drie jaar het centrum van de oorlog in Jemen. De gevechten die de stadsbewoners al die tijd ondergaan, zijn vrijwel onbekend gebleven voor de buitenwereld.
+      </p>
+      <p class="test_tekst">
+        De slag om Taiz
+        In Taiz staan regeringgezinde strijders en noordelijke Houthi-opstandelingen sinds het begin van de oorlog in 2015 tegenover elkaar. In het centrum van de stad zijn regeringsgezinde strijders en lokale milities de baas (waaronder Al-Qaeda),  met een smalle corridor die hen verbindt met de buitenwereld. Zij worden constant bestookt door Houthi-opstandelingen die heersen in de buitenwijken.
+      </p>
+      <p class="test_tekst">
+        Door het totale gebrek aan bewegingsvrijheid en de vele gevaren om de stad te bereiken, lukte het vrijwel geen westerse journalist de afgelopen jaren om de stad te bezoeken. Vrijwel al het nieuws over Taiz is daarom altijd gekomen van lokale journalisten. Dankzij hun hulp kregen wij wel toegang tot de stad.
+      </p>
+      <p class="test_tekst">
+        De aanblik overtrof alle clichés over een stad in oorlog: huizen liggen aan puin, overal ligt vuilnis en gewapende mannen houden zich op in de straten. Het lokale ziekenhuis ligt vol gewonde strijders en burgers, de bovenste 
+      </p>
+      <p class="test_tekst">
+        e Verenigde Naties noemen de situatie in Jemen ‘de grootste humanitaire crisis ter wereld.’ Meer dan 22 miljoen Jemenieten, onder wie 11 miljoen kinderen,  hebben humanitaire hulp nodig. Ruim 8 miljoen van hen zijn volledig afhankelijk van voedselhulp en balanceren op de rand van uithongering.
+      </p>
+      <p class="test_tekst">
+        Maar het overgrote deel van de slachtoffers is onbereikbaar voor de media. Een serie onuitvoerbare procedures maakt het vrijwel onmogelijk een journalistenvisum te bemachtigen of om anderszins op onafhankelijke wijze je werk te doen.
+      </p>
+      <p class="test_tekst">
+        Des te meer reden om als correspondent Vergeten Oorlogen verslag te willen doen van de gevolgen van deze verwoestende strijd.
+      </p>
+      <p class="test_tekst">
+        Dat kostte anderhalf jaar aan voorbereiding. 
+        Lees hier wat de voorbereiding van zo’n reis voor de redactie van De Correspondent betekent. In samenwerking met een contact in Jemen stuurde ik ruim zestig documenten naar de autoriteiten en andere betrokkenen om ze zover te krijgen me toegang te verlenen. Eerst als journalist, maar toen dit onmogelijk bleek als ‘onafhankelijke onderzoeker.’ Drie keer is onze vlucht op het allerlaatste moment afgelast. Net toen ik dacht aan opgeven, lukte het toch.
+      </p>
+      <p class="test_tekst">
+        Drie keer is onze vlucht op het laatste moment afgelast. Net toen ik aan opgeven dacht, lukte het Jemen in te komen
+        Negen dagen reisden fotograaf Andreas Staahl en ik door het zuiden van Jemen, waar het regeringsleger van de uit het noorden verdreven president Abd Rabbuh Mansur Hadi, zuidelijke opstandelingen, een keur aan burgermilities en het fundamentalistische Al-Qaeda de scepter zwaaien.
+      </p>
+      <p class="test_tekst">
+        Zij vechten een oorlog uit tegen noordelijke Houthi-rebellen, die sinds maart 2015 de hoofdstad van het land Sana’a en grote delen van het noorden controleren. Een door Saoedi-Arabië geleide coalitie van Arabische staten staat hen bij om de Houthi-rebellen terug te dringen  en voert daarbij talloze luchtaanvallen uit. Daarnaast raken de verschillende strijdgroepen in het zuiden geregeld met elkaar in conflict.
+      </p>
+      <h2 id="trigger_1" data-trigger-id="1">De eerste betaling</h2>
+      <p class="test_tekst">
+        Wat we aantroffen heeft ons diep geraakt. Kinderen met schotwonden klampten zich aan ons vast, vragend om voedsel, ouderen gooiden zich voor ons op de grond en smeekten ons de buitenwereld te vertellen over hun lot.
+      </p>
+      <p class="test_tekst">
+        De komende weken ga ik dat doen.
+      </p>
+      <p class="test_tekst">
+
+        De vergeten oorlog in het zuiden
+        Onze reis begon in de zuidelijke havenstad Aden, waar strijders van het zuidelijke verzetsleger eind januari 2018 het regeringsleger verdreven, waarmee ze tot dat moment hadden samengewerkt.
+      </p>
+      <p class="test_tekst">
+        De afwezigheid van de autoriteiten gaf ons de kans vrijwel ongestoord  te werken in de stad, vrij van de propagandamachine  en zonder bewaking. Die kans grepen we aan om te onderzoeken wat de zuidelijke rebellen willen, en wat er tijdens de chaotische dagen eind januari gebeurde. Daarnaast reisden we via Aden naar Taiz, waar de autoriteiten en vele burgermilities een strijd voeren tegen de Houthi-rebellen.
+      </p>
+      <p class="test_tekst">
+        De gebeurtenissen in Aden worden door de overheid bestempeld als een ‘coup,’ maar de bevolking stelt dat ze vreedzaam demonstreerden tegen de vergaande corruptie, en dat het leger begon met schieten.
+      </p>
+
+      <p class="test_tekst">
+        Veel verhalen over wat er die dagen precies gebeurde wijzen op een schending van de de Geneefse Conventies,  ofwel het oorlogsrecht. Zo spraken we een ambulancemedewerker die door soldaten was beschoten en beroofd. De kogelgaten zaten nog in de ambulance. We bezochten een woonwijk die met mortiergranaten werd getroffen en spraken met inwoners die daarbij gewond zijn geraakt.
+      </p>
+      <p class="test_tekst">
+        De situatie in Aden maakt de oorlog in Jemen nog ingewikkelder dan deze al was. De zuidelijke rebellen streven onafhankelijkheid na, zoals die voor 1990 bestond. En in het zuiden zie je ook alleen nog de vlag van Zuid-Jemen. De regering, zo zegt men hier, is niet meer welkom.
+      </p>
+      <p class="test_tekst">
+        Maar eerst zal ik een reportage publiceren vanuit de zwaar belegerde stad Taiz, al drie jaar het centrum van de oorlog in Jemen. De gevechten die de stadsbewoners al die tijd ondergaan, zijn vrijwel onbekend gebleven voor de buitenwereld.
+      </p>
+      <p class="test_tekst">
+        De slag om Taiz
+        In Taiz staan regeringgezinde strijders en noordelijke Houthi-opstandelingen sinds het begin van de oorlog in 2015 tegenover elkaar. In het centrum van de stad zijn regeringsgezinde strijders en lokale milities de baas (waaronder Al-Qaeda),  met een smalle corridor die hen verbindt met de buitenwereld. Zij worden constant bestookt door Houthi-opstandelingen die heersen in de buitenwijken.
+      </p>
+      <p class="test_tekst">
+        Door het totale gebrek aan bewegingsvrijheid en de vele gevaren om de stad te bereiken, lukte het vrijwel geen westerse journalist de afgelopen jaren om de stad te bezoeken. Vrijwel al het nieuws over Taiz is daarom altijd gekomen van lokale journalisten. Dankzij hun hulp kregen wij wel toegang tot de stad.
+      </p>
+      <p class="test_tekst">
+        De aanblik overtrof alle clichés over een stad in oorlog: huizen liggen aan puin, overal ligt vuilnis en gewapende mannen houden zich op in de straten. Het lokale ziekenhuis ligt vol gewonde strijders en burgers, de bovenste 
+      </p>  
+      <h2 id="trigger_2" data-trigger-id="2">De tweede betaling</h2>
+      <p class="test_tekst">
+        Wat we aantroffen heeft ons diep geraakt. Kinderen met schotwonden klampten zich aan ons vast, vragend om voedsel, ouderen gooiden zich voor ons op de grond en smeekten ons de buitenwereld te vertellen over hun lot.
+      </p>
+      <p class="test_tekst">
+        De komende weken ga ik dat doen.
+      </p>
+      <p class="test_tekst">
+
+        De vergeten oorlog in het zuiden
+        Onze reis begon in de zuidelijke havenstad Aden, waar strijders van het zuidelijke verzetsleger eind januari 2018 het regeringsleger verdreven, waarmee ze tot dat moment hadden samengewerkt.
+      </p>
+      <p class="test_tekst">
+        De afwezigheid van de autoriteiten gaf ons de kans vrijwel ongestoord  te werken in de stad, vrij van de propagandamachine  en zonder bewaking. Die kans grepen we aan om te onderzoeken wat de zuidelijke rebellen willen, en wat er tijdens de chaotische dagen eind januari gebeurde. Daarnaast reisden we via Aden naar Taiz, waar de autoriteiten en vele burgermilities een strijd voeren tegen de Houthi-rebellen.
+      </p>
+      <p class="test_tekst">
+        De gebeurtenissen in Aden worden door de overheid bestempeld als een ‘coup,’ maar de bevolking stelt dat ze vreedzaam demonstreerden tegen de vergaande corruptie, en dat het leger begon met schieten.
+      </p>
+
+      <p class="test_tekst">
+        Veel verhalen over wat er die dagen precies gebeurde wijzen op een schending van de de Geneefse Conventies,  ofwel het oorlogsrecht. Zo spraken we een ambulancemedewerker die door soldaten was beschoten en beroofd. De kogelgaten zaten nog in de ambulance. We bezochten een woonwijk die met mortiergranaten werd getroffen en spraken met inwoners die daarbij gewond zijn geraakt.
+      </p>
+      <p class="test_tekst">
+        De situatie in Aden maakt de oorlog in Jemen nog ingewikkelder dan deze al was. De zuidelijke rebellen streven onafhankelijkheid na, zoals die voor 1990 bestond. En in het zuiden zie je ook alleen nog de vlag van Zuid-Jemen. De regering, zo zegt men hier, is niet meer welkom.
+      </p>
+      <p class="test_tekst">
+        Maar eerst zal ik een reportage publiceren vanuit de zwaar belegerde stad Taiz, al drie jaar het centrum van de oorlog in Jemen. De gevechten die de stadsbewoners al die tijd ondergaan, zijn vrijwel onbekend gebleven voor de buitenwereld.
+      </p>
+      <p class="test_tekst">
+        De slag om Taiz
+        In Taiz staan regeringgezinde strijders en noordelijke Houthi-opstandelingen sinds het begin van de oorlog in 2015 tegenover elkaar. In het centrum van de stad zijn regeringsgezinde strijders en lokale milities de baas (waaronder Al-Qaeda),  met een smalle corridor die hen verbindt met de buitenwereld. Zij worden constant bestookt door Houthi-opstandelingen die heersen in de buitenwijken.
+      </p>
+      <p class="test_tekst">
+        Door het totale gebrek aan bewegingsvrijheid en de vele gevaren om de stad te bereiken, lukte het vrijwel geen westerse journalist de afgelopen jaren om de stad te bezoeken. Vrijwel al het nieuws over Taiz is daarom altijd gekomen van lokale journalisten. Dankzij hun hulp kregen wij wel toegang tot de stad.
+      </p>
+      <p class="test_tekst">
+        De aanblik overtrof alle clichés over een stad in oorlog: huizen liggen aan puin, overal ligt vuilnis en gewapende mannen houden zich op in de straten. Het lokale ziekenhuis ligt vol gewonde strijders en burgers, de bovenste 
+      </p> 
+
+
+  </div>
+<script type="text/javascript">
+  
+  // array of all the triggers-ids
+  var triggers = Array.from(document.querySelectorAll('[data-trigger-id]'));
+  
+  // check if item is in window
+  var isInViewport = function (elem) {
+      var bounding = elem.getBoundingClientRect();
+      return (
+          bounding.top >= 0 &&
+          bounding.left >= 0 &&
+          bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+          bounding.right <= (window.innerWidth || document.documentElement.clientWidth)
+      );
+  };
+
+  // get value html 
+  var kosten_value = document.querySelector('#kosten_value');
+  var documenten_value = document.querySelector('#documenten_value');
+  var frustratie_value = document.querySelector('#frustratie_value');
+  var frustratie_tekst = document.querySelector('#frustratie_tekst');
+
+  // get emoticon states
+  var emo_geen      = document.querySelector('#emo_geen');
+  var emo_weinig    = document.querySelector('#emo_weinig');
+  var emo_veel      = document.querySelector('#emo_veel');
+
+  // Data
+  var dashboardData = {
+    0: {
+      id: 0,
+      money: 0,
+      documents: 0,
+      frustratie: 'geen',
+      emoticon: emo_geen
+    },
+    1: {
+      id: 1,
+      money: 150,
+      documents: 4,
+      frustratie: 'weinig',
+      emoticon: emo_weinig
+    },
+    2: {
+      id: 2,
+      money: 600,
+      documents: 40,
+      frustratie: 'veel',
+      emoticon: emo_veel
+    }
+  };
+
+  // map trigger id and margin to the top of window
+  var triggerPositionMap = triggers.map(function (trigger) {
+    return {
+      id: trigger.dataset.triggerId,
+      top: trigger.getBoundingClientRect().top,
+    }
+  });
+
+  // display the right emoticon
+  function displayEmoticon(emoticon) {
+    emo_geen.style.opacity = 0;
+    emo_weinig.style.opacity = 0;
+    emo_veel.style.opacity = 0;
+    (emoticon).style.opacity = 1;
+  }
+
+  // debounce function from: gist.github.com/nmsdvid/
+  function debounce(func, wait, immediate) {
+    var timeout;
+    return function() {
+      var context = this, args = arguments;
+      clearTimeout(timeout);
+      timeout = setTimeout(function() {
+        timeout = null;
+        if (!immediate) func.apply(context, args);
+      }, wait);
+      if (immediate && !timeout) func.apply(context, args);
+    };
+  }
+
+  var update_dashboard = debounce(function(event) {
+ 
+    var lowestTriggerAboveThreshold;
+    var threshold = window.pageYOffset - (window.innerHeight / 4 );
+
+    // check which trigger is below the threshold
+    triggerPositionMap.forEach(function (trigger) {
+      if (trigger.top < threshold) {
+        if (!lowestTriggerAboveThreshold || trigger.top > lowestTriggerAboveThreshold.top) {
+          lowestTriggerAboveThreshold = trigger;
+        }
+      }
+    });
+
+    var dataToUse = dashboardData[0];
+
+    if (lowestTriggerAboveThreshold) {
+      
+      dataToUse = dashboardData[lowestTriggerAboveThreshold.id];
+      kosten_value.innerHTML = dataToUse['money'];
+      frustratie_tekst.innerHTML = dataToUse['frustratie'];
+      documenten_value.innerHTML = dataToUse['documents'];
+
+      displayEmoticon(dataToUse['emoticon']);
+
+    }
+
+  }, 250);
+  
+  window.addEventListener('scroll', update_dashboard);
+
+</script>
+
+
+</body>
+</html>
